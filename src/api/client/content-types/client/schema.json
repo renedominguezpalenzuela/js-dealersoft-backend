@@ -1,0 +1,72 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clients",
+  "info": {
+    "singularName": "client",
+    "pluralName": "clients",
+    "displayName": "Client",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "first_name": {
+      "type": "string",
+      "required": true
+    },
+    "last_name": {
+      "type": "string",
+      "required": true
+    },
+    "birth_date": {
+      "type": "date"
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "fax": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "street": {
+      "type": "text"
+    },
+    "house_number": {
+      "type": "string"
+    },
+    "postal_code": {
+      "type": "biginteger"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "aditional_address": {
+      "type": "text"
+    },
+    "tax_number": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email"
+    },
+    "title": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

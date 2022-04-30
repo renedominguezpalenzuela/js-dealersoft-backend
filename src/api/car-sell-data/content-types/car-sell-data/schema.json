@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cars_sell_data",
+  "info": {
+    "singularName": "car-sell-data",
+    "pluralName": "cars-sell-data",
+    "displayName": "CarSellData"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "invoice_number": {
+      "type": "string"
+    },
+    "invoice_date": {
+      "type": "date",
+      "required": true
+    },
+    "kv_date": {
+      "type": "date",
+      "required": true
+    },
+    "client": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::client.client"
+    },
+    "car": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::car.car"
+    },
+    "net_sell": {
+      "type": "float"
+    },
+    "iva_sell": {
+      "type": "float"
+    },
+    "gross_sell": {
+      "type": "float"
+    },
+    "a25": {
+      "type": "boolean",
+      "default": false
+    },
+    "iva": {
+      "type": "boolean",
+      "default": false
+    },
+    "export": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

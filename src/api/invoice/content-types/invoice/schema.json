@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "invoices",
+  "info": {
+    "singularName": "invoice",
+    "pluralName": "invoices",
+    "displayName": "Invoice",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "invoice_number": {
+      "type": "biginteger",
+      "unique": true,
+      "required": true,
+      "min": "0"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "date": {
+      "type": "date"
+    },
+    "delivery_date": {
+      "type": "date",
+      "required": true
+    },
+    "client": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::client.client"
+    },
+    "a25": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "iva": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "places": {
+      "type": "json",
+      "required": true
+    },
+    "owner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    }
+  }
+}

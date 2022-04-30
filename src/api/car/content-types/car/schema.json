@@ -1,0 +1,95 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cars",
+  "info": {
+    "singularName": "car",
+    "pluralName": "cars",
+    "displayName": "Car",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "text"
+    },
+    "car_identifier": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "build_variant": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "first_register_date": {
+      "type": "datetime",
+      "required": true
+    },
+    "kilometres": {
+      "type": "biginteger",
+      "required": true
+    },
+    "kilowatt": {
+      "type": "biginteger"
+    },
+    "color": {
+      "type": "string",
+      "required": true
+    },
+    "last_owner": {
+      "type": "string",
+      "required": true
+    },
+    "hsn": {
+      "type": "string"
+    },
+    "tsn": {
+      "type": "string",
+      "required": true
+    },
+    "comments": {
+      "type": "json",
+      "required": true
+    },
+    "selled": {
+      "type": "boolean",
+      "default": false
+    },
+    "pictures": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "owner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "source": {
+      "type": "enumeration",
+      "enum": [
+        "telefon_ads",
+        "telefon_organic",
+        "client_recommend",
+        "deal",
+        "network_friend",
+        "ofert_agent",
+        "organic_website",
+        "ads_website"
+      ]
+    },
+    "car_buy_data": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::car-buy-data.car-buy-data",
+      "inversedBy": "car"
+    }
+  }
+}

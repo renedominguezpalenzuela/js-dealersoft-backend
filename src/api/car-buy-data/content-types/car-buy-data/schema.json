@@ -1,0 +1,72 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cars_buy_data",
+  "info": {
+    "singularName": "car-buy-data",
+    "pluralName": "cars-buy-data",
+    "displayName": "CarBuyData",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "car": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::car.car",
+      "mappedBy": "car_buy_data"
+    },
+    "client": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::client.client"
+    },
+    "observation_1": {
+      "type": "text"
+    },
+    "observation_2": {
+      "type": "text"
+    },
+    "collection": {
+      "type": "string"
+    },
+    "payment": {
+      "type": "string"
+    },
+    "net_buy": {
+      "type": "float",
+      "required": true
+    },
+    "iva_buy": {
+      "type": "float"
+    },
+    "gross_buy": {
+      "type": "float"
+    },
+    "net_buy_adjustment": {
+      "type": "float"
+    },
+    "year_interest_rate": {
+      "type": "float"
+    },
+    "total": {
+      "type": "float",
+      "required": true
+    },
+    "buy_date": {
+      "type": "date"
+    },
+    "a25": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "iva": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}
