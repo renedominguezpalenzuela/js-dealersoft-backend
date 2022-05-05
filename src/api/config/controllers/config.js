@@ -20,7 +20,13 @@ module.exports = createCoreController('api::config.config', ({ strapi }) =>  ({
     console.log(ctx.request.body);
     const token = ctx.request.header.authorization.split(' ')[1];
 
-    let url = `https://admin.dealersoft.de/export/${data.type}/${token}?`;
+    const front_end_server =  process.env.FRONT_END_SERVER;
+    // let url = `https://admin.dealersoft.de/export/${data.type}/${token}?`;
+    let url = `${front_end_server}/export/${data.type}/${token}?`;
+
+    
+
+  console.log(url)
     for(let key in data){
       if(key === 'type') continue;
       url += `${key}=${data[key]}&`;
