@@ -1729,6 +1729,13 @@
                               "bemerkunhen": {
                                 "type": "string"
                               },
+                              "zahlunsart": {
+                                "type": "string"
+                              },
+                              "lieferung": {
+                                "type": "string",
+                                "format": "date"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -3767,6 +3774,13 @@
                             "bemerkunhen": {
                               "type": "string"
                             },
+                            "zahlunsart": {
+                              "type": "string"
+                            },
+                            "lieferung": {
+                              "type": "string",
+                              "format": "date"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -5728,6 +5742,13 @@
                             "bemerkunhen": {
                               "type": "string"
                             },
+                            "zahlunsart": {
+                              "type": "string"
+                            },
+                            "lieferung": {
+                              "type": "string",
+                              "format": "date"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -7675,6 +7696,13 @@
                             "bemerkunhen": {
                               "type": "string"
                             },
+                            "zahlunsart": {
+                              "type": "string"
+                            },
+                            "lieferung": {
+                              "type": "string",
+                              "format": "date"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -7959,6 +7987,13 @@
                       },
                       "bemerkunhen": {
                         "type": "string"
+                      },
+                      "zahlunsart": {
+                        "type": "string"
+                      },
+                      "lieferung": {
+                        "type": "string",
+                        "format": "date"
                       },
                       "createdAt": {
                         "type": "string",

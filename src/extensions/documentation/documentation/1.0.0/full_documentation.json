@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-05-09T18:32:12.217Z"
+    "x-generation-date": "2022-05-09T19:16:40.545Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -19809,6 +19809,13 @@
                               "bemerkunhen": {
                                 "type": "string"
                               },
+                              "zahlunsart": {
+                                "type": "string"
+                              },
+                              "lieferung": {
+                                "type": "string",
+                                "format": "date"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -21847,6 +21854,13 @@
                             "bemerkunhen": {
                               "type": "string"
                             },
+                            "zahlunsart": {
+                              "type": "string"
+                            },
+                            "lieferung": {
+                              "type": "string",
+                              "format": "date"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -23808,6 +23822,13 @@
                             "bemerkunhen": {
                               "type": "string"
                             },
+                            "zahlunsart": {
+                              "type": "string"
+                            },
+                            "lieferung": {
+                              "type": "string",
+                              "format": "date"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -25755,6 +25776,13 @@
                             "bemerkunhen": {
                               "type": "string"
                             },
+                            "zahlunsart": {
+                              "type": "string"
+                            },
+                            "lieferung": {
+                              "type": "string",
+                              "format": "date"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -26039,6 +26067,13 @@
                       },
                       "bemerkunhen": {
                         "type": "string"
+                      },
+                      "zahlunsart": {
+                        "type": "string"
+                      },
+                      "lieferung": {
+                        "type": "string",
+                        "format": "date"
                       },
                       "createdAt": {
                         "type": "string",

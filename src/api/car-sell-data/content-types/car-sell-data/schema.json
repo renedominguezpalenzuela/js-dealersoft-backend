@@ -56,6 +56,12 @@
     },
     "bemerkunhen": {
       "type": "text"
+    },
+    "zahlunsart": {
+      "type": "string"
+    },
+    "lieferung": {
+      "type": "date"
     }
   }
 }
