@@ -1574,6 +1574,9 @@
                                                       "iva": {
                                                         "type": "boolean"
                                                       },
+                                                      "bemerkunhen": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -1736,6 +1739,9 @@
                               },
                               "iva": {
                                 "type": "boolean"
+                              },
+                              "bemerkunhen": {
+                                "type": "string"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -3620,6 +3626,9 @@
                                                     "iva": {
                                                       "type": "boolean"
                                                     },
+                                                    "bemerkunhen": {
+                                                      "type": "string"
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -3782,6 +3791,9 @@
                             },
                             "iva": {
                               "type": "boolean"
+                            },
+                            "bemerkunhen": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -4001,10 +4013,6 @@
                     "type": "object",
                     "properties": {
                       "net_buy": {
-                        "type": "number",
-                        "format": "float"
-                      },
-                      "total": {
                         "type": "number",
                         "format": "float"
                       },
@@ -5595,6 +5603,9 @@
                                                     "iva": {
                                                       "type": "boolean"
                                                     },
+                                                    "bemerkunhen": {
+                                                      "type": "string"
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -5757,6 +5768,9 @@
                             },
                             "iva": {
                               "type": "boolean"
+                            },
+                            "bemerkunhen": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -7550,6 +7564,9 @@
                                                     "iva": {
                                                       "type": "boolean"
                                                     },
+                                                    "bemerkunhen": {
+                                                      "type": "string"
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -7712,6 +7729,9 @@
                             },
                             "iva": {
                               "type": "boolean"
+                            },
+                            "bemerkunhen": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -8008,6 +8028,9 @@
                       },
                       "iva": {
                         "type": "boolean"
+                      },
+                      "bemerkunhen": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",

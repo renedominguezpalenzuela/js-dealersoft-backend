@@ -53,7 +53,7 @@
     },
     "total": {
       "type": "float",
-      "required": true
+      "required": false
     },
     "buy_date": {
       "type": "date"
@@ -67,6 +67,9 @@
       "type": "boolean",
       "default": false,
       "required": true
+    },
+    "bemerkunhen": {
+      "type": "text"
     }
   }
 }

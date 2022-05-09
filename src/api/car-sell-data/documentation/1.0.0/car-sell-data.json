@@ -1602,6 +1602,9 @@
                                                       "iva": {
                                                         "type": "boolean"
                                                       },
+                                                      "bemerkunhen": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -3634,6 +3637,9 @@
                                                     "iva": {
                                                       "type": "boolean"
                                                     },
+                                                    "bemerkunhen": {
+                                                      "type": "string"
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -5589,6 +5595,9 @@
                                                     "iva": {
                                                       "type": "boolean"
                                                     },
+                                                    "bemerkunhen": {
+                                                      "type": "string"
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -7529,6 +7538,9 @@
                                                     },
                                                     "iva": {
                                                       "type": "boolean"
+                                                    },
+                                                    "bemerkunhen": {
+                                                      "type": "string"
                                                     },
                                                     "createdAt": {
                                                       "type": "string",

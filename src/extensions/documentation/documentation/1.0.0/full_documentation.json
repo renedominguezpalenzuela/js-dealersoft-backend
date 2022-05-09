@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-05-05T18:12:24.641Z"
+    "x-generation-date": "2022-05-08T23:19:50.695Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2113,6 +2113,9 @@
                                           },
                                           "iva": {
                                             "type": "boolean"
+                                          },
+                                          "bemerkunhen": {
+                                            "type": "string"
                                           },
                                           "createdAt": {
                                             "type": "string",
@@ -4534,6 +4537,9 @@
                                         },
                                         "iva": {
                                           "type": "boolean"
+                                        },
+                                        "bemerkunhen": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -6910,6 +6916,9 @@
                                         "iva": {
                                           "type": "boolean"
                                         },
+                                        "bemerkunhen": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -9240,6 +9249,9 @@
                                         "iva": {
                                           "type": "boolean"
                                         },
+                                        "bemerkunhen": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -11392,6 +11404,9 @@
                                                       "iva": {
                                                         "type": "boolean"
                                                       },
+                                                      "bemerkunhen": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -11554,6 +11569,9 @@
                               },
                               "iva": {
                                 "type": "boolean"
+                              },
+                              "bemerkunhen": {
+                                "type": "string"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -13438,6 +13456,9 @@
                                                     "iva": {
                                                       "type": "boolean"
                                                     },
+                                                    "bemerkunhen": {
+                                                      "type": "string"
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -13600,6 +13621,9 @@
                             },
                             "iva": {
                               "type": "boolean"
+                            },
+                            "bemerkunhen": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -13819,10 +13843,6 @@
                     "type": "object",
                     "properties": {
                       "net_buy": {
-                        "type": "number",
-                        "format": "float"
-                      },
-                      "total": {
                         "type": "number",
                         "format": "float"
                       },
@@ -15413,6 +15433,9 @@
                                                     "iva": {
                                                       "type": "boolean"
                                                     },
+                                                    "bemerkunhen": {
+                                                      "type": "string"
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -15575,6 +15598,9 @@
                             },
                             "iva": {
                               "type": "boolean"
+                            },
+                            "bemerkunhen": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -17368,6 +17394,9 @@
                                                     "iva": {
                                                       "type": "boolean"
                                                     },
+                                                    "bemerkunhen": {
+                                                      "type": "string"
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -17530,6 +17559,9 @@
                             },
                             "iva": {
                               "type": "boolean"
+                            },
+                            "bemerkunhen": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -17826,6 +17858,9 @@
                       },
                       "iva": {
                         "type": "boolean"
+                      },
+                      "bemerkunhen": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",
@@ -19646,6 +19681,9 @@
                                                       },
                                                       "iva": {
                                                         "type": "boolean"
+                                                      },
+                                                      "bemerkunhen": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -21679,6 +21717,9 @@
                                                     "iva": {
                                                       "type": "boolean"
                                                     },
+                                                    "bemerkunhen": {
+                                                      "type": "string"
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -23634,6 +23675,9 @@
                                                     "iva": {
                                                       "type": "boolean"
                                                     },
+                                                    "bemerkunhen": {
+                                                      "type": "string"
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -25574,6 +25618,9 @@
                                                     },
                                                     "iva": {
                                                       "type": "boolean"
+                                                    },
+                                                    "bemerkunhen": {
+                                                      "type": "string"
                                                     },
                                                     "createdAt": {
                                                       "type": "string",
