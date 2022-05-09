@@ -96,7 +96,7 @@ module.exports = createCoreController('api::config.config', ({ strapi }) =>  ({
 
     if(!id || !user) return {
       error: {
-        message: "No payment specified"
+        message: "No payment specified."
       }
     }
 
