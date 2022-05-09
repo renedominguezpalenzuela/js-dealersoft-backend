@@ -4,7 +4,8 @@
   "info": {
     "singularName": "car-sell-data",
     "pluralName": "cars-sell-data",
-    "displayName": "CarSellData"
+    "displayName": "CarSellData",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -52,6 +53,9 @@
     "export": {
       "type": "boolean",
       "default": false
+    },
+    "bemerkunhen": {
+      "type": "text"
     }
   }
 }

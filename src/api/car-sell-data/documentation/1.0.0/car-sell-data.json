@@ -1726,6 +1726,9 @@
                               "export": {
                                 "type": "boolean"
                               },
+                              "bemerkunhen": {
+                                "type": "string"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -3761,6 +3764,9 @@
                             "export": {
                               "type": "boolean"
                             },
+                            "bemerkunhen": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -5719,6 +5725,9 @@
                             "export": {
                               "type": "boolean"
                             },
+                            "bemerkunhen": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -7663,6 +7672,9 @@
                             "export": {
                               "type": "boolean"
                             },
+                            "bemerkunhen": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -7944,6 +7956,9 @@
                       },
                       "export": {
                         "type": "boolean"
+                      },
+                      "bemerkunhen": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",

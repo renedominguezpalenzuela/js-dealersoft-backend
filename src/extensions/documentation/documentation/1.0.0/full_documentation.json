@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-05-09T03:36:14.209Z"
+    "x-generation-date": "2022-05-09T18:32:12.217Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -19806,6 +19806,9 @@
                               "export": {
                                 "type": "boolean"
                               },
+                              "bemerkunhen": {
+                                "type": "string"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -21841,6 +21844,9 @@
                             "export": {
                               "type": "boolean"
                             },
+                            "bemerkunhen": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -23799,6 +23805,9 @@
                             "export": {
                               "type": "boolean"
                             },
+                            "bemerkunhen": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -25743,6 +25752,9 @@
                             "export": {
                               "type": "boolean"
                             },
+                            "bemerkunhen": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -26024,6 +26036,9 @@
                       },
                       "export": {
                         "type": "boolean"
+                      },
+                      "bemerkunhen": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",
