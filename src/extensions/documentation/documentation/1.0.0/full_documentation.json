@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-05-12T13:23:59.585Z"
+    "x-generation-date": "2022-05-12T19:04:40.163Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -19816,6 +19816,9 @@
                                 "type": "string",
                                 "format": "date"
                               },
+                              "bemerkunhen2page": {
+                                "type": "string"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -21861,6 +21864,9 @@
                               "type": "string",
                               "format": "date"
                             },
+                            "bemerkunhen2page": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -23829,6 +23835,9 @@
                               "type": "string",
                               "format": "date"
                             },
+                            "bemerkunhen2page": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -25783,6 +25792,9 @@
                               "type": "string",
                               "format": "date"
                             },
+                            "bemerkunhen2page": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -26074,6 +26086,9 @@
                       "lieferung": {
                         "type": "string",
                         "format": "date"
+                      },
+                      "bemerkunhen2page": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",

@@ -1736,6 +1736,9 @@
                                 "type": "string",
                                 "format": "date"
                               },
+                              "bemerkunhen2page": {
+                                "type": "string"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -3781,6 +3784,9 @@
                               "type": "string",
                               "format": "date"
                             },
+                            "bemerkunhen2page": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -5749,6 +5755,9 @@
                               "type": "string",
                               "format": "date"
                             },
+                            "bemerkunhen2page": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -7703,6 +7712,9 @@
                               "type": "string",
                               "format": "date"
                             },
+                            "bemerkunhen2page": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -7994,6 +8006,9 @@
                       "lieferung": {
                         "type": "string",
                         "format": "date"
+                      },
+                      "bemerkunhen2page": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",
