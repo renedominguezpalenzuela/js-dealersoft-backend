@@ -62,6 +62,9 @@
     },
     "lieferung": {
       "type": "date"
+    },
+    "bemerkunhen2page": {
+      "type": "text"
     }
   }
 }
