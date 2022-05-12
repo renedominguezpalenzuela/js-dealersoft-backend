@@ -65,6 +65,9 @@
     },
     "bemerkunhen2page": {
       "type": "text"
+    },
+    "bemerkungencheck2page": {
+      "type": "boolean"
     }
   }
 }
