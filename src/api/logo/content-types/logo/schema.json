@@ -4,7 +4,8 @@
   "info": {
     "singularName": "logo",
     "pluralName": "logos",
-    "displayName": "logo"
+    "displayName": "logo",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,15 +15,16 @@
     "user": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "plugin::users-permissions.user"
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "logo"
     },
     "logo": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }

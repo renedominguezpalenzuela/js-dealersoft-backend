@@ -130,6 +130,12 @@
       "relation": "oneToMany",
       "target": "api::client.client",
       "mappedBy": "user"
+    },
+    "logo": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::logo.logo",
+      "inversedBy": "user"
     }
   }
 }
