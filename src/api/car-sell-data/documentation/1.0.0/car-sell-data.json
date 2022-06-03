@@ -1985,7 +1985,7 @@
                                               }
                                             }
                                           },
-                                          "source": {
+                                          "source_old": {
                                             "type": "string",
                                             "enum": [
                                               "telefon_ads",
@@ -2144,6 +2144,9 @@
                                                 }
                                               }
                                             }
+                                          },
+                                          "source": {
+                                            "type": "string"
                                           },
                                           "createdAt": {
                                             "type": "string",
@@ -4524,7 +4527,7 @@
                                             }
                                           }
                                         },
-                                        "source": {
+                                        "source_old": {
                                           "type": "string",
                                           "enum": [
                                             "telefon_ads",
@@ -4683,6 +4686,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "source": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -6986,7 +6992,7 @@
                                             }
                                           }
                                         },
-                                        "source": {
+                                        "source_old": {
                                           "type": "string",
                                           "enum": [
                                             "telefon_ads",
@@ -7145,6 +7151,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "source": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -9434,7 +9443,7 @@
                                             }
                                           }
                                         },
-                                        "source": {
+                                        "source_old": {
                                           "type": "string",
                                           "enum": [
                                             "telefon_ads",
@@ -9593,6 +9602,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "source": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",

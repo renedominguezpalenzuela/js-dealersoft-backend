@@ -72,7 +72,7 @@
       "relation": "oneToOne",
       "target": "plugin::users-permissions.user"
     },
-    "source": {
+    "source_old": {
       "type": "enumeration",
       "enum": [
         "telefon_ads",
@@ -90,6 +90,9 @@
       "relation": "oneToOne",
       "target": "api::car-buy-data.car-buy-data",
       "inversedBy": "car"
+    },
+    "source": {
+      "type": "text"
     }
   }
 }
