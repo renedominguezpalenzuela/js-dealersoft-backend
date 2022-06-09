@@ -125,17 +125,17 @@
     "hrb_walsrode": {
       "type": "string"
     },
-    "clients": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::client.client",
-      "mappedBy": "user"
-    },
     "logo": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::logo.logo",
       "inversedBy": "user"
+    },
+    "clients": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::client.client",
+      "mappedBy": "user"
     }
   }
 }

@@ -16,7 +16,7 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "plugin::users-permissions.user",
-      "inversedBy": "logo"
+      "mappedBy": "logo"
     },
     "logo": {
       "type": "media",

@@ -981,26 +981,6 @@
                                                       "hrb_walsrode": {
                                                         "type": "string"
                                                       },
-                                                      "clients": {
-                                                        "type": "object",
-                                                        "properties": {
-                                                          "data": {
-                                                            "type": "array",
-                                                            "items": {
-                                                              "type": "object",
-                                                              "properties": {
-                                                                "id": {
-                                                                  "type": "string"
-                                                                },
-                                                                "attributes": {
-                                                                  "type": "object",
-                                                                  "properties": {}
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      },
                                                       "logo": {
                                                         "type": "object",
                                                         "properties": {
@@ -1446,6 +1426,26 @@
                                                                       }
                                                                     }
                                                                   }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      },
+                                                      "clients": {
+                                                        "type": "object",
+                                                        "properties": {
+                                                          "data": {
+                                                            "type": "array",
+                                                            "items": {
+                                                              "type": "object",
+                                                              "properties": {
+                                                                "id": {
+                                                                  "type": "string"
+                                                                },
+                                                                "attributes": {
+                                                                  "type": "object",
+                                                                  "properties": {}
                                                                 }
                                                               }
                                                             }
@@ -2866,26 +2866,6 @@
                                                     "hrb_walsrode": {
                                                       "type": "string"
                                                     },
-                                                    "clients": {
-                                                      "type": "object",
-                                                      "properties": {
-                                                        "data": {
-                                                          "type": "array",
-                                                          "items": {
-                                                            "type": "object",
-                                                            "properties": {
-                                                              "id": {
-                                                                "type": "string"
-                                                              },
-                                                              "attributes": {
-                                                                "type": "object",
-                                                                "properties": {}
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    },
                                                     "logo": {
                                                       "type": "object",
                                                       "properties": {
@@ -3331,6 +3311,26 @@
                                                                     }
                                                                   }
                                                                 }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    "clients": {
+                                                      "type": "object",
+                                                      "properties": {
+                                                        "data": {
+                                                          "type": "array",
+                                                          "items": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                              "id": {
+                                                                "type": "string"
+                                                              },
+                                                              "attributes": {
+                                                                "type": "object",
+                                                                "properties": {}
                                                               }
                                                             }
                                                           }
@@ -4682,26 +4682,6 @@
                                                     "hrb_walsrode": {
                                                       "type": "string"
                                                     },
-                                                    "clients": {
-                                                      "type": "object",
-                                                      "properties": {
-                                                        "data": {
-                                                          "type": "array",
-                                                          "items": {
-                                                            "type": "object",
-                                                            "properties": {
-                                                              "id": {
-                                                                "type": "string"
-                                                              },
-                                                              "attributes": {
-                                                                "type": "object",
-                                                                "properties": {}
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    },
                                                     "logo": {
                                                       "type": "object",
                                                       "properties": {
@@ -5147,6 +5127,26 @@
                                                                     }
                                                                   }
                                                                 }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    "clients": {
+                                                      "type": "object",
+                                                      "properties": {
+                                                        "data": {
+                                                          "type": "array",
+                                                          "items": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                              "id": {
+                                                                "type": "string"
+                                                              },
+                                                              "attributes": {
+                                                                "type": "object",
+                                                                "properties": {}
                                                               }
                                                             }
                                                           }
@@ -6476,26 +6476,6 @@
                                                     "hrb_walsrode": {
                                                       "type": "string"
                                                     },
-                                                    "clients": {
-                                                      "type": "object",
-                                                      "properties": {
-                                                        "data": {
-                                                          "type": "array",
-                                                          "items": {
-                                                            "type": "object",
-                                                            "properties": {
-                                                              "id": {
-                                                                "type": "string"
-                                                              },
-                                                              "attributes": {
-                                                                "type": "object",
-                                                                "properties": {}
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    },
                                                     "logo": {
                                                       "type": "object",
                                                       "properties": {
@@ -6941,6 +6921,26 @@
                                                                     }
                                                                   }
                                                                 }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    "clients": {
+                                                      "type": "object",
+                                                      "properties": {
+                                                        "data": {
+                                                          "type": "array",
+                                                          "items": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                              "id": {
+                                                                "type": "string"
+                                                              },
+                                                              "attributes": {
+                                                                "type": "object",
+                                                                "properties": {}
                                                               }
                                                             }
                                                           }
