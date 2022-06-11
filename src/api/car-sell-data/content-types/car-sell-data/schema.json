@@ -68,6 +68,9 @@
     },
     "bemerkungencheck2page": {
       "type": "boolean"
+    },
+    "bemerkunhen2": {
+      "type": "text"
     }
   }
 }

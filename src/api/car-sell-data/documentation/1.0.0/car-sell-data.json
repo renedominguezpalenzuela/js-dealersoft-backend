@@ -2233,6 +2233,9 @@
                               "bemerkungencheck2page": {
                                 "type": "boolean"
                               },
+                              "bemerkunhen2": {
+                                "type": "string"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -4775,6 +4778,9 @@
                             "bemerkungencheck2page": {
                               "type": "boolean"
                             },
+                            "bemerkunhen2": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -7240,6 +7246,9 @@
                             "bemerkungencheck2page": {
                               "type": "boolean"
                             },
+                            "bemerkunhen2": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -9691,6 +9700,9 @@
                             "bemerkungencheck2page": {
                               "type": "boolean"
                             },
+                            "bemerkunhen2": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -9988,6 +10000,9 @@
                       },
                       "bemerkungencheck2page": {
                         "type": "boolean"
+                      },
+                      "bemerkunhen2": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",
