@@ -5001,10 +5001,6 @@
                       "invoice_date": {
                         "type": "string",
                         "format": "date"
-                      },
-                      "kv_date": {
-                        "type": "string",
-                        "format": "date"
                       }
                     }
                   }

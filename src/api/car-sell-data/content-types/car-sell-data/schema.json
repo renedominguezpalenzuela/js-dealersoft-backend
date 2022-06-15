@@ -21,7 +21,7 @@
     },
     "kv_date": {
       "type": "date",
-      "required": true
+      "required": false
     },
     "client": {
       "type": "relation",
