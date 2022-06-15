@@ -71,6 +71,9 @@
     },
     "bemerkunhen2": {
       "type": "text"
+    },
+    "abholtermin": {
+      "type": "date"
     }
   }
 }

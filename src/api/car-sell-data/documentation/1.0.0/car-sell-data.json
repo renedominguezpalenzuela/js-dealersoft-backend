@@ -2242,6 +2242,10 @@
                               "bemerkunhen2": {
                                 "type": "string"
                               },
+                              "abholtermin": {
+                                "type": "string",
+                                "format": "date"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -4793,6 +4797,10 @@
                             "bemerkunhen2": {
                               "type": "string"
                             },
+                            "abholtermin": {
+                              "type": "string",
+                              "format": "date"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -7263,6 +7271,10 @@
                             "bemerkunhen2": {
                               "type": "string"
                             },
+                            "abholtermin": {
+                              "type": "string",
+                              "format": "date"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -9723,6 +9735,10 @@
                             "bemerkunhen2": {
                               "type": "string"
                             },
+                            "abholtermin": {
+                              "type": "string",
+                              "format": "date"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -10023,6 +10039,10 @@
                       },
                       "bemerkunhen2": {
                         "type": "string"
+                      },
+                      "abholtermin": {
+                        "type": "string",
+                        "format": "date"
                       },
                       "createdAt": {
                         "type": "string",
