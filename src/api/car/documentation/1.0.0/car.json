@@ -1844,6 +1844,9 @@
                                                             }
                                                           }
                                                         },
+                                                        "company_name": {
+                                                          "type": "string"
+                                                        },
                                                         "createdAt": {
                                                           "type": "string",
                                                           "format": "date-time"
@@ -1896,6 +1899,9 @@
                                                 }
                                               }
                                             }
+                                          },
+                                          "bank_name": {
+                                            "type": "string"
                                           },
                                           "createdAt": {
                                             "type": "string",
@@ -4762,6 +4768,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "company_name": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -4814,6 +4823,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "bank_name": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -7634,6 +7646,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "company_name": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -7686,6 +7701,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "bank_name": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -10461,6 +10479,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "company_name": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -10513,6 +10534,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "bank_name": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",

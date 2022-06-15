@@ -74,6 +74,9 @@
       "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
       "inversedBy": "clients"
+    },
+    "company_name": {
+      "type": "string"
     }
   }
 }
