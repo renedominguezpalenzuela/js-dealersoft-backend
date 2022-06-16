@@ -13,13 +13,6 @@
     "timestamps": true
   },
   "attributes": {
-    "username": {
-      "type": "string",
-      "minLength": 3,
-      "unique": true,
-      "configurable": true,
-      "required": false
-    },
     "email": {
       "type": "email",
       "minLength": 6,
@@ -62,6 +55,12 @@
       "target": "plugin::users-permissions.role",
       "inversedBy": "users",
       "configurable": false
+    },
+    "username": {
+      "type": "string",
+      "minLength": 3,
+      "unique": true,
+      "required": true
     },
     "first_name": {
       "type": "string",
@@ -138,6 +137,9 @@
       "mappedBy": "user"
     },
     "bank_name": {
+      "type": "string"
+    },
+    "city": {
       "type": "string"
     }
   }

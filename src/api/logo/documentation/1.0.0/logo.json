@@ -31,9 +31,6 @@
                                       "attributes": {
                                         "type": "object",
                                         "properties": {
-                                          "username": {
-                                            "type": "string"
-                                          },
                                           "email": {
                                             "type": "string",
                                             "format": "email"
@@ -475,6 +472,9 @@
                                                 }
                                               }
                                             }
+                                          },
+                                          "username": {
+                                            "type": "string"
                                           },
                                           "first_name": {
                                             "type": "string"
@@ -1491,6 +1491,9 @@
                                           "bank_name": {
                                             "type": "string"
                                           },
+                                          "city": {
+                                            "type": "string"
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -2249,9 +2252,6 @@
                                     "attributes": {
                                       "type": "object",
                                       "properties": {
-                                        "username": {
-                                          "type": "string"
-                                        },
                                         "email": {
                                           "type": "string",
                                           "format": "email"
@@ -2693,6 +2693,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "username": {
+                                          "type": "string"
                                         },
                                         "first_name": {
                                           "type": "string"
@@ -3707,6 +3710,9 @@
                                           }
                                         },
                                         "bank_name": {
+                                          "type": "string"
+                                        },
+                                        "city": {
                                           "type": "string"
                                         },
                                         "createdAt": {
@@ -4393,9 +4399,6 @@
                                     "attributes": {
                                       "type": "object",
                                       "properties": {
-                                        "username": {
-                                          "type": "string"
-                                        },
                                         "email": {
                                           "type": "string",
                                           "format": "email"
@@ -4837,6 +4840,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "username": {
+                                          "type": "string"
                                         },
                                         "first_name": {
                                           "type": "string"
@@ -5851,6 +5857,9 @@
                                           }
                                         },
                                         "bank_name": {
+                                          "type": "string"
+                                        },
+                                        "city": {
                                           "type": "string"
                                         },
                                         "createdAt": {
@@ -6520,9 +6529,6 @@
                                     "attributes": {
                                       "type": "object",
                                       "properties": {
-                                        "username": {
-                                          "type": "string"
-                                        },
                                         "email": {
                                           "type": "string",
                                           "format": "email"
@@ -6964,6 +6970,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "username": {
+                                          "type": "string"
                                         },
                                         "first_name": {
                                           "type": "string"
@@ -7978,6 +7987,9 @@
                                           }
                                         },
                                         "bank_name": {
+                                          "type": "string"
+                                        },
+                                        "city": {
                                           "type": "string"
                                         },
                                         "createdAt": {
