@@ -11,6 +11,7 @@ module.exports = ({ env }) => ({
         defaultFrom: 'myemail@protonmail.com',
         defaultReplyTo: 'myemail@protonmail.com',
       },
+      jwtSecret: env('JWT_SECRET') 
     },
   },
   upload: {
