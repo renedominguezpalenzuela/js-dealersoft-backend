@@ -5012,10 +5012,6 @@
                   "data": {
                     "type": "object",
                     "properties": {
-                      "net_buy": {
-                        "type": "number",
-                        "format": "float"
-                      },
                       "a25": {
                         "type": "boolean"
                       },
