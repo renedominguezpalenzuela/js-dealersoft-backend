@@ -53,7 +53,7 @@
     },
     "tax_number": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "email": {
       "type": "email"
