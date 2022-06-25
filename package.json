@@ -23,7 +23,8 @@
     "pg": "^8.7.1",
     "pg-connection-string": "^2.5.0",
     "sqlite3": "5.0.2",
-    "stripe": "^8.195.0"
+    "stripe": "^8.195.0",
+    "regenerator-runtime": "^0.13.9"
   },
   "author": {
     "name": "A Strapi developer"
