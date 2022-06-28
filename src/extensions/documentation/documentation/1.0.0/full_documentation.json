@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-06-25T23:22:03.603Z"
+    "x-generation-date": "2022-06-28T17:22:21.644Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -10257,9 +10257,7 @@
         ],
         "properties": {
           "data": {
-            "required": [
-              "invoice_date"
-            ],
+            "required": [],
             "type": "object",
             "properties": {
               "invoice_number": {
@@ -10336,8 +10334,7 @@
                 "type": "string"
               },
               "abholtermin": {
-                "type": "string",
-                "format": "date"
+                "type": "string"
               }
             }
           }
@@ -12584,8 +12581,7 @@
                       "type": "string"
                     },
                     "abholtermin": {
-                      "type": "string",
-                      "format": "date"
+                      "type": "string"
                     },
                     "createdAt": {
                       "type": "string",
@@ -14902,8 +14898,7 @@
                     "type": "string"
                   },
                   "abholtermin": {
-                    "type": "string",
-                    "format": "date"
+                    "type": "string"
                   },
                   "createdAt": {
                     "type": "string",
@@ -19445,7 +19440,6 @@
         "properties": {
           "data": {
             "required": [
-              "invoice_number",
               "delivery_date",
               "a25",
               "iva",
@@ -19453,11 +19447,6 @@
             ],
             "type": "object",
             "properties": {
-              "invoice_number": {
-                "type": "string",
-                "pattern": "^\\d*$",
-                "example": "123456789"
-              },
               "title": {
                 "type": "string"
               },
@@ -19500,6 +19489,9 @@
                   }
                 ],
                 "example": "string or id"
+              },
+              "invoice_number": {
+                "type": "string"
               }
             }
           }
@@ -19519,11 +19511,6 @@
                 "attributes": {
                   "type": "object",
                   "properties": {
-                    "invoice_number": {
-                      "type": "string",
-                      "pattern": "^\\d*$",
-                      "example": "123456789"
-                    },
                     "title": {
                       "type": "string"
                     },
@@ -21085,6 +21072,9 @@
                         }
                       }
                     },
+                    "invoice_number": {
+                      "type": "string"
+                    },
                     "createdAt": {
                       "type": "string",
                       "format": "date-time"
@@ -21173,11 +21163,6 @@
               "attributes": {
                 "type": "object",
                 "properties": {
-                  "invoice_number": {
-                    "type": "string",
-                    "pattern": "^\\d*$",
-                    "example": "123456789"
-                  },
                   "title": {
                     "type": "string"
                   },
@@ -22738,6 +22723,9 @@
                         }
                       }
                     }
+                  },
+                  "invoice_number": {
+                    "type": "string"
                   },
                   "createdAt": {
                     "type": "string",

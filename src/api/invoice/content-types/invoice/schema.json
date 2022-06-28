@@ -12,12 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "invoice_number": {
-      "type": "biginteger",
-      "unique": true,
-      "required": true,
-      "min": "0"
-    },
     "title": {
       "type": "string"
     },
@@ -54,6 +48,9 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "plugin::users-permissions.user"
+    },
+    "invoice_number": {
+      "type": "string"
     }
   }
 }

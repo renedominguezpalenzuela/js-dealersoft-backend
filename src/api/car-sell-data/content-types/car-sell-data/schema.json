@@ -17,7 +17,7 @@
     },
     "invoice_date": {
       "type": "date",
-      "required": true
+      "required": false
     },
     "kv_date": {
       "type": "date",
@@ -73,7 +73,7 @@
       "type": "text"
     },
     "abholtermin": {
-      "type": "date"
+      "type": "string"
     }
   }
 }
