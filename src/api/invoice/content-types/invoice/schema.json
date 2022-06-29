@@ -50,7 +50,9 @@
       "target": "plugin::users-permissions.user"
     },
     "invoice_number": {
-      "type": "string"
+      "type": "string",
+      "unique": true,
+      "required": true
     }
   }
 }

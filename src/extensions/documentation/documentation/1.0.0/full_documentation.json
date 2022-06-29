@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-06-28T17:22:21.644Z"
+    "x-generation-date": "2022-06-29T13:58:10.816Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -19443,7 +19443,8 @@
               "delivery_date",
               "a25",
               "iva",
-              "places"
+              "places",
+              "invoice_number"
             ],
             "type": "object",
             "properties": {
