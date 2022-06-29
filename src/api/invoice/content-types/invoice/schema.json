@@ -51,7 +51,7 @@
     },
     "invoice_number": {
       "type": "string",
-      "unique": true,
+      "unique": false,
       "required": true
     }
   }
