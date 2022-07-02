@@ -23,6 +23,7 @@ module.exports = createCoreController('api::config.config', ({ strapi }) =>  ({
     const front_end_server =  process.env.FRONT_END_SERVER;
     // let url = `https://admin.dealersoft.de/export/${data.type}/${token}?`;
     let url = `${front_end_server}/export/${data.type}/${token}?`;
+	//console.log(url);
    
 
     for(let key in data){
