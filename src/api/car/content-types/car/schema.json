@@ -38,11 +38,11 @@
     },
     "color": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "last_owner": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "hsn": {
       "type": "string"
