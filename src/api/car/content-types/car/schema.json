@@ -62,7 +62,7 @@
     "pictures": {
       "type": "media",
       "multiple": true,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images"
       ]
@@ -93,6 +93,18 @@
     },
     "source": {
       "type": "text"
+    },
+    "can_save": {
+      "type": "boolean",
+      "default": true
+    },
+    "a25": {
+      "type": "boolean",
+      "default": false
+    },
+    "iva": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
