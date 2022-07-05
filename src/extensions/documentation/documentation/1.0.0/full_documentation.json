@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-07-04T17:23:57.562Z"
+    "x-generation-date": "2022-07-05T20:21:27.527Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -19521,7 +19521,8 @@
               "a25",
               "iva",
               "places",
-              "invoice_number"
+              "invoice_number",
+              "invoice_type"
             ],
             "type": "object",
             "properties": {
@@ -19570,6 +19571,15 @@
               },
               "invoice_number": {
                 "type": "string"
+              },
+              "reference_invoice_number": {
+                "type": "string"
+              },
+              "invoice_type": {
+                "type": "string"
+              },
+              "canceled": {
+                "type": "boolean"
               }
             }
           }
@@ -21152,6 +21162,15 @@
                     },
                     "invoice_number": {
                       "type": "string"
+                    },
+                    "reference_invoice_number": {
+                      "type": "string"
+                    },
+                    "invoice_type": {
+                      "type": "string"
+                    },
+                    "canceled": {
+                      "type": "boolean"
                     },
                     "createdAt": {
                       "type": "string",
@@ -22804,6 +22823,15 @@
                   },
                   "invoice_number": {
                     "type": "string"
+                  },
+                  "reference_invoice_number": {
+                    "type": "string"
+                  },
+                  "invoice_type": {
+                    "type": "string"
+                  },
+                  "canceled": {
+                    "type": "boolean"
                   },
                   "createdAt": {
                     "type": "string",
