@@ -55,15 +55,18 @@
       "required": true
     },
     "reference_invoice_number": {
-      "type": "string"
-    },
-    "invoice_type": {
       "type": "string",
-      "default": "1",
       "required": true
     },
-    "canceled": {
-      "type": "boolean"
+    "cancelled": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "invoice_type": {
+      "type": "integer",
+      "required": true,
+      "default": 1
     }
   }
 }

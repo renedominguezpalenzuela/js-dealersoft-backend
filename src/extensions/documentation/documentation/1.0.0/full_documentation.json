@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-07-05T20:21:27.527Z"
+    "x-generation-date": "2022-07-07T00:19:14.802Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -19522,6 +19522,8 @@
               "iva",
               "places",
               "invoice_number",
+              "reference_invoice_number",
+              "cancelled",
               "invoice_type"
             ],
             "type": "object",
@@ -19575,11 +19577,11 @@
               "reference_invoice_number": {
                 "type": "string"
               },
-              "invoice_type": {
-                "type": "string"
-              },
-              "canceled": {
+              "cancelled": {
                 "type": "boolean"
+              },
+              "invoice_type": {
+                "type": "integer"
               }
             }
           }
@@ -21166,11 +21168,11 @@
                     "reference_invoice_number": {
                       "type": "string"
                     },
-                    "invoice_type": {
-                      "type": "string"
-                    },
-                    "canceled": {
+                    "cancelled": {
                       "type": "boolean"
+                    },
+                    "invoice_type": {
+                      "type": "integer"
                     },
                     "createdAt": {
                       "type": "string",
@@ -22827,11 +22829,11 @@
                   "reference_invoice_number": {
                     "type": "string"
                   },
-                  "invoice_type": {
-                    "type": "string"
-                  },
-                  "canceled": {
+                  "cancelled": {
                     "type": "boolean"
+                  },
+                  "invoice_type": {
+                    "type": "integer"
                   },
                   "createdAt": {
                     "type": "string",
