@@ -19,6 +19,7 @@ module.exports = createCoreController('api::config.config', ({ strapi }) =>  ({
     const { data } = ctx.request.body;
     
     const token = ctx.request.header.authorization.split(' ')[1];
+	console.log(token);
 
     const front_end_server =  process.env.FRONT_END_SERVER;
     // let url = `https://admin.dealersoft.de/export/${data.type}/${token}?`;
