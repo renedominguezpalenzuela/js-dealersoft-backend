@@ -1,19 +1,20 @@
 module.exports = ({ env }) => ({
-  email: {
-    config: {
-      provider: 'mailgun',
-      providerOptions: {
-        apiKey: env('MAILGUN_API_KEY'),
-        domain: env('DOMAIN'), //Required if you have an account with multiple domains
-        host: 'api.mailgun.net', //Optional. If domain region is Europe use 'api.eu.mailgun.net'
+  
+    email: {
+      config: {
+        provider: 'sendgrid', // For community providers 
+                                             //  pass the full package name
+                                             // (e.g. provider: 'strapi-provider-email-mandrill')
+        providerOptions: {
+          apiKey: env('SENDGRID_API_KEY'),
+        },
+        settings: {
+          defaultFrom: 'renedp1975@gmail.com',
+        defaultReplyTo: 'renedp1975@gmail.com',
+        testAddress: 'renedp1975@gmail.com',
+        },
       },
-      settings: {
-        defaultFrom: 'myemail@protonmail.com',
-        defaultReplyTo: 'myemail@protonmail.com',
-      },
-      jwtSecret: env('JWT_SECRET') 
     },
-  },
   upload: {
     config: {
       provider: 'aws-s3',
