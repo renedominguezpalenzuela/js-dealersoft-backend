@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-07-24T16:24:56.831Z"
+    "x-generation-date": "2022-07-24T19:07:51.948Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -19579,6 +19579,9 @@
               },
               "invoice_type": {
                 "type": "integer"
+              },
+              "cancel_number": {
+                "type": "string"
               }
             }
           }
@@ -21170,6 +21173,9 @@
                     },
                     "invoice_type": {
                       "type": "integer"
+                    },
+                    "cancel_number": {
+                      "type": "string"
                     },
                     "createdAt": {
                       "type": "string",
@@ -22831,6 +22837,9 @@
                   },
                   "invoice_type": {
                     "type": "integer"
+                  },
+                  "cancel_number": {
+                    "type": "string"
                   },
                   "createdAt": {
                     "type": "string",

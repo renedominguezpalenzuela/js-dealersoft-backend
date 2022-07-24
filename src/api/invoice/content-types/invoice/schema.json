@@ -67,6 +67,9 @@
       "type": "integer",
       "required": true,
       "default": 1
+    },
+    "cancel_number": {
+      "type": "string"
     }
   }
 }
