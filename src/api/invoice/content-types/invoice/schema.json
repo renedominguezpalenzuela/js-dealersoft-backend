@@ -52,7 +52,7 @@
     "invoice_number": {
       "type": "string",
       "unique": false,
-      "required": true
+      "required": false
     },
     "reference_invoice_number": {
       "type": "string",
