@@ -70,6 +70,16 @@
     },
     "cancel_number": {
       "type": "string"
+    },
+    "car_sell_data": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::car-sell-data.car-sell-data"
+    },
+    "car": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::car.car"
     }
   }
 }
