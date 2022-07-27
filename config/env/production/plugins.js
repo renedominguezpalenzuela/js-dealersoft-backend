@@ -7,9 +7,9 @@ module.exports = ({ env }) => ({
           apiKey: env('SENDGRID_API_KEY'),
         },
         settings: {
-          defaultFrom: 'renedp1975@gmail.com',
-        defaultReplyTo: 'renedp1975@gmail.com',
-        testAddress: 'renedp1975@gmail.com',
+          defaultFrom: 'mail@dealersoft.de',
+        defaultReplyTo: 'mail@dealersoft.de',
+        testAddress: 'mail@dealersoft.de'
         },
       },
     },
