@@ -72,23 +72,23 @@
     },
     "company_name": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "street": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "house_number": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "postal_code": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "employees_number": {
       "type": "integer",
-      "required": true,
+      "required": false,
       "min": 1
     },
     "active_until": {
@@ -141,6 +141,11 @@
     },
     "city": {
       "type": "string"
+    },
+    "full_registration": {
+      "type": "boolean",
+      "default": false,
+      "required": false
     }
   }
 }

@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-07-27T16:04:09.529Z"
+    "x-generation-date": "2022-07-28T21:14:40.825Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2108,6 +2108,9 @@
                                 },
                                 "city": {
                                   "type": "string"
+                                },
+                                "full_registration": {
+                                  "type": "boolean"
                                 },
                                 "createdAt": {
                                   "type": "string",
@@ -4813,6 +4816,9 @@
                               },
                               "city": {
                                 "type": "string"
+                              },
+                              "full_registration": {
+                                "type": "boolean"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -7600,6 +7606,9 @@
                                             "city": {
                                               "type": "string"
                                             },
+                                            "full_registration": {
+                                              "type": "boolean"
+                                            },
                                             "createdAt": {
                                               "type": "string",
                                               "format": "date-time"
@@ -9921,6 +9930,9 @@
                                           "city": {
                                             "type": "string"
                                           },
+                                          "full_registration": {
+                                            "type": "boolean"
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -11844,6 +11856,9 @@
                                             },
                                             "city": {
                                               "type": "string"
+                                            },
+                                            "full_registration": {
+                                              "type": "boolean"
                                             },
                                             "createdAt": {
                                               "type": "string",
@@ -14170,6 +14185,9 @@
                                           },
                                           "city": {
                                             "type": "string"
+                                          },
+                                          "full_registration": {
+                                            "type": "boolean"
                                           },
                                           "createdAt": {
                                             "type": "string",
@@ -17029,6 +17047,9 @@
                                 "city": {
                                   "type": "string"
                                 },
+                                "full_registration": {
+                                  "type": "boolean"
+                                },
                                 "createdAt": {
                                   "type": "string",
                                   "format": "date-time"
@@ -19062,6 +19083,9 @@
                               "city": {
                                 "type": "string"
                               },
+                              "full_registration": {
+                                "type": "boolean"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -21055,6 +21079,9 @@
                                             },
                                             "city": {
                                               "type": "string"
+                                            },
+                                            "full_registration": {
+                                              "type": "boolean"
                                             },
                                             "createdAt": {
                                               "type": "string",
@@ -23532,6 +23559,9 @@
                                           },
                                           "city": {
                                             "type": "string"
+                                          },
+                                          "full_registration": {
+                                            "type": "boolean"
                                           },
                                           "createdAt": {
                                             "type": "string",
@@ -26070,6 +26100,9 @@
                                 "city": {
                                   "type": "string"
                                 },
+                                "full_registration": {
+                                  "type": "boolean"
+                                },
                                 "createdAt": {
                                   "type": "string",
                                   "format": "date-time"
@@ -28050,6 +28083,9 @@
                               },
                               "city": {
                                 "type": "string"
+                              },
+                              "full_registration": {
+                                "type": "boolean"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -30840,6 +30876,9 @@
                                               "city": {
                                                 "type": "string"
                                               },
+                                              "full_registration": {
+                                                "type": "boolean"
+                                              },
                                               "createdAt": {
                                                 "type": "string",
                                                 "format": "date-time"
@@ -32450,6 +32489,9 @@
                                             "city": {
                                               "type": "string"
                                             },
+                                            "full_registration": {
+                                              "type": "boolean"
+                                            },
                                             "createdAt": {
                                               "type": "string",
                                               "format": "date-time"
@@ -34053,6 +34095,9 @@
                                                             },
                                                             "city": {
                                                               "type": "string"
+                                                            },
+                                                            "full_registration": {
+                                                              "type": "boolean"
                                                             },
                                                             "createdAt": {
                                                               "type": "string",
@@ -35693,6 +35738,9 @@
                                                           "city": {
                                                             "type": "string"
                                                           },
+                                                          "full_registration": {
+                                                            "type": "boolean"
+                                                          },
                                                           "createdAt": {
                                                             "type": "string",
                                                             "format": "date-time"
@@ -35921,12 +35969,7 @@
               "email",
               "username",
               "first_name",
-              "last_name",
-              "company_name",
-              "street",
-              "house_number",
-              "postal_code",
-              "employees_number"
+              "last_name"
             ],
             "type": "object",
             "properties": {
@@ -36053,6 +36096,9 @@
               },
               "city": {
                 "type": "string"
+              },
+              "full_registration": {
+                "type": "boolean"
               }
             }
           }
@@ -37517,6 +37563,9 @@
                                               "city": {
                                                 "type": "string"
                                               },
+                                              "full_registration": {
+                                                "type": "boolean"
+                                              },
                                               "createdAt": {
                                                 "type": "string",
                                                 "format": "date-time"
@@ -37714,6 +37763,9 @@
                     },
                     "city": {
                       "type": "string"
+                    },
+                    "full_registration": {
+                      "type": "boolean"
                     },
                     "createdAt": {
                       "type": "string",
@@ -39244,6 +39296,9 @@
                                             "city": {
                                               "type": "string"
                                             },
+                                            "full_registration": {
+                                              "type": "boolean"
+                                            },
                                             "createdAt": {
                                               "type": "string",
                                               "format": "date-time"
@@ -39441,6 +39496,9 @@
                   },
                   "city": {
                     "type": "string"
+                  },
+                  "full_registration": {
+                    "type": "boolean"
                   },
                   "createdAt": {
                     "type": "string",
