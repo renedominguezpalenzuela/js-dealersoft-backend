@@ -60,7 +60,7 @@
       "type": "string",
       "minLength": 3,
       "unique": true,
-      "required": false
+      "required": true
     },
     "first_name": {
       "type": "string",
