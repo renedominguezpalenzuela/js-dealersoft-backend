@@ -17,6 +17,10 @@ const STRIPE_PK = "pk_test_51I3lMpHz6wZjUnSMzC9PFSxXXgP98WukmZ37IAtfR5T8Nx58Djob
 module.exports = createCoreController('api::config.config', ({ strapi }) =>  ({
   async generatePDF(ctx) {
     const { data } = ctx.request.body;
+
+    //Datos recibidos desde el cliente
+	// console.log("Datos");
+	// console.log(ctx.request.body);
     
     const token = ctx.request.header.authorization.split(' ')[1];
 	//console.log(token);
