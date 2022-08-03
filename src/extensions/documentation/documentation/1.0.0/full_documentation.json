@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-07-31T12:38:18.406Z"
+    "x-generation-date": "2022-08-03T17:23:35.720Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -99,7 +99,6 @@
               "build_variant",
               "first_register_date",
               "kilometres",
-              "tsn",
               "comments"
             ],
             "type": "object",

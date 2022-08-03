@@ -49,7 +49,7 @@
     },
     "tsn": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "comments": {
       "type": "json",
