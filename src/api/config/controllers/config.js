@@ -137,8 +137,8 @@ module.exports = createCoreController("api::config.config", ({ strapi }) => ({
 
       await strapi.plugins["email"].services.email.send({
         to: email_address,
-        from:  process.env.EMAIL_ADDRESS,
-        replyTo:  process.env.EMAIL_ADDRESS,
+        from:  process.env.SENDGRID_SENDMAIL_API_ADDRESS,
+        replyTo:  process.env.SENDGRID_SENDMAIL_API_ADDRESS,
         subject: "Kontakt Formular",
        // text: "Texto del mensaje",
         html: `<h1>Kontakt Formular</h1><p>${first_name} ${last_name} </p> <p>${telephone}</p> <p>${message}</p>`
