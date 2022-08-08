@@ -10,6 +10,11 @@ module.exports = {
   routes: [
     {
       method: 'POST',
+      path: '/mail',
+      handler: 'config.sendMail',
+    },
+    {
+      method: 'POST',
       path: '/generatePDF',
       handler: 'config.generatePDF',
     },
