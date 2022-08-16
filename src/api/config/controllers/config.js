@@ -126,12 +126,9 @@ module.exports = createCoreController("api::config.config", ({ strapi }) => ({
     try {
 
 
-      const { email_address, first_name, last_name, telephone, message } = ctx.request.body;
+      const { email_address, first_name, last_name, telephone, message } = ctx.request.body.data;
 
-      // console.log("---- Sending mail ----");
-      // console.log(ctx.request.body);
-      // console.log(email_address);
-      // console.log( process.env.EMAIL_ADDRESS);
+       
 
 
 

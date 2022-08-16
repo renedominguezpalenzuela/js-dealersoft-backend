@@ -46,8 +46,8 @@
     },
     "blocked": {
       "type": "boolean",
-      "default": true,
-      "configurable": false
+      "default": false,
+      "configurable": true
     },
     "role": {
       "type": "relation",
