@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-12-14T15:29:47.299Z"
+    "x-generation-date": "2023-01-04T16:17:26.638Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2781,6 +2781,10 @@
                                 "bemerkunhen": {
                                   "type": "string"
                                 },
+                                "pickupdate": {
+                                  "type": "string",
+                                  "format": "date"
+                                },
                                 "createdAt": {
                                   "type": "string",
                                   "format": "date-time"
@@ -5489,6 +5493,10 @@
                               "bemerkunhen": {
                                 "type": "string"
                               },
+                              "pickupdate": {
+                                "type": "string",
+                                "format": "date"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -5687,6 +5695,10 @@
               },
               "bemerkunhen": {
                 "type": "string"
+              },
+              "pickupdate": {
+                "type": "string",
+                "format": "date"
               }
             }
           }
@@ -7764,6 +7776,10 @@
                                             "bemerkunhen": {
                                               "type": "string"
                                             },
+                                            "pickupdate": {
+                                              "type": "string",
+                                              "format": "date"
+                                            },
                                             "createdAt": {
                                               "type": "string",
                                               "format": "date-time"
@@ -7941,6 +7957,10 @@
                     },
                     "bemerkunhen": {
                       "type": "string"
+                    },
+                    "pickupdate": {
+                      "type": "string",
+                      "format": "date"
                     },
                     "createdAt": {
                       "type": "string",
@@ -10088,6 +10108,10 @@
                                           "bemerkunhen": {
                                             "type": "string"
                                           },
+                                          "pickupdate": {
+                                            "type": "string",
+                                            "format": "date"
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -10265,6 +10289,10 @@
                   },
                   "bemerkunhen": {
                     "type": "string"
+                  },
+                  "pickupdate": {
+                    "type": "string",
+                    "format": "date"
                   },
                   "createdAt": {
                     "type": "string",
@@ -12510,6 +12538,10 @@
                                             },
                                             "bemerkunhen": {
                                               "type": "string"
+                                            },
+                                            "pickupdate": {
+                                              "type": "string",
+                                              "format": "date"
                                             },
                                             "createdAt": {
                                               "type": "string",
@@ -14839,6 +14871,10 @@
                                           },
                                           "bemerkunhen": {
                                             "type": "string"
+                                          },
+                                          "pickupdate": {
+                                            "type": "string",
+                                            "format": "date"
                                           },
                                           "createdAt": {
                                             "type": "string",
@@ -21813,6 +21849,10 @@
                                                         "bemerkunhen": {
                                                           "type": "string"
                                                         },
+                                                        "pickupdate": {
+                                                          "type": "string",
+                                                          "format": "date"
+                                                        },
                                                         "createdAt": {
                                                           "type": "string",
                                                           "format": "date-time"
@@ -24292,6 +24332,10 @@
                                                       },
                                                       "bemerkunhen": {
                                                         "type": "string"
+                                                      },
+                                                      "pickupdate": {
+                                                        "type": "string",
+                                                        "format": "date"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
