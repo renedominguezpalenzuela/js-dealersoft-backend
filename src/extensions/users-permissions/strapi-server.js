@@ -24,7 +24,7 @@ module.exports = (plugin) => {
 
     // Pick only specific fields for security
 	//_.pick -- selecciona solo los campos pasados como parametros
-    const newData = _.pick(ctx.request.body.data, ['email', 'username', 'first_name', 'last_name', 'company_name', 'street', 'house_number', 'city', 'postal_code', 'phone', 'website', 'steuer_nr', 'ust_Idnr', 'geschaftsfuhrer', 'iban', 'bic_swift_code', 'hrb_walsrode', 'bank_name', 'full_registration', 'employees_number']);
+    const newData = _.pick(ctx.request.body.data, ['email', 'username', 'first_name', 'last_name', 'company_name', 'street', 'house_number', 'city', 'postal_code', 'phone', 'website', 'steuer_nr', 'ust_Idnr', 'geschaftsfuhrer', 'iban', 'bic_swift_code', 'hrb_walsrode','hrb_ort' ,'bank_name', 'full_registration', 'employees_number']);
 	
 	
 

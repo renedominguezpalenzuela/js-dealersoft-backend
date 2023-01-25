@@ -44,17 +44,16 @@
       "default": false,
       "configurable": false
     },
-    "blocked": {
-      "type": "boolean",
-      "default": false,
-      "configurable": true
-    },
     "role": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "plugin::users-permissions.role",
       "inversedBy": "users",
       "configurable": false
+    },
+    "blocked": {
+      "type": "boolean",
+      "default": false
     },
     "username": {
       "type": "string",
@@ -146,6 +145,9 @@
       "type": "boolean",
       "default": false,
       "required": false
+    },
+    "hrb_ort": {
+      "type": "string"
     }
   }
 }

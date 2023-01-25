@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-01-19T14:43:02.890Z"
+    "x-generation-date": "2023-01-25T16:04:06.420Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -661,9 +661,6 @@
                                 "confirmed": {
                                   "type": "boolean"
                                 },
-                                "blocked": {
-                                  "type": "boolean"
-                                },
                                 "role": {
                                   "type": "object",
                                   "properties": {
@@ -1086,6 +1083,9 @@
                                       }
                                     }
                                   }
+                                },
+                                "blocked": {
+                                  "type": "boolean"
                                 },
                                 "username": {
                                   "type": "string"
@@ -2110,6 +2110,9 @@
                                 },
                                 "full_registration": {
                                   "type": "boolean"
+                                },
+                                "hrb_ort": {
+                                  "type": "string"
                                 },
                                 "createdAt": {
                                   "type": "string",
@@ -3373,9 +3376,6 @@
                               "confirmed": {
                                 "type": "boolean"
                               },
-                              "blocked": {
-                                "type": "boolean"
-                              },
                               "role": {
                                 "type": "object",
                                 "properties": {
@@ -3798,6 +3798,9 @@
                                     }
                                   }
                                 }
+                              },
+                              "blocked": {
+                                "type": "boolean"
                               },
                               "username": {
                                 "type": "string"
@@ -4822,6 +4825,9 @@
                               },
                               "full_registration": {
                                 "type": "boolean"
+                              },
+                              "hrb_ort": {
+                                "type": "string"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -6170,9 +6176,6 @@
                                             "confirmed": {
                                               "type": "boolean"
                                             },
-                                            "blocked": {
-                                              "type": "boolean"
-                                            },
                                             "role": {
                                               "type": "object",
                                               "properties": {
@@ -6595,6 +6598,9 @@
                                                   }
                                                 }
                                               }
+                                            },
+                                            "blocked": {
+                                              "type": "boolean"
                                             },
                                             "username": {
                                               "type": "string"
@@ -7620,6 +7626,9 @@
                                             "full_registration": {
                                               "type": "boolean"
                                             },
+                                            "hrb_ort": {
+                                              "type": "string"
+                                            },
                                             "createdAt": {
                                               "type": "string",
                                               "format": "date-time"
@@ -8502,9 +8511,6 @@
                                           "confirmed": {
                                             "type": "boolean"
                                           },
-                                          "blocked": {
-                                            "type": "boolean"
-                                          },
                                           "role": {
                                             "type": "object",
                                             "properties": {
@@ -8927,6 +8933,9 @@
                                                 }
                                               }
                                             }
+                                          },
+                                          "blocked": {
+                                            "type": "boolean"
                                           },
                                           "username": {
                                             "type": "string"
@@ -9952,6 +9961,9 @@
                                           "full_registration": {
                                             "type": "boolean"
                                           },
+                                          "hrb_ort": {
+                                            "type": "string"
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -10923,9 +10935,6 @@
                                             "confirmed": {
                                               "type": "boolean"
                                             },
-                                            "blocked": {
-                                              "type": "boolean"
-                                            },
                                             "role": {
                                               "type": "object",
                                               "properties": {
@@ -11348,6 +11357,9 @@
                                                   }
                                                 }
                                               }
+                                            },
+                                            "blocked": {
+                                              "type": "boolean"
                                             },
                                             "username": {
                                               "type": "string"
@@ -11886,6 +11898,9 @@
                                             },
                                             "full_registration": {
                                               "type": "boolean"
+                                            },
+                                            "hrb_ort": {
+                                              "type": "string"
                                             },
                                             "createdAt": {
                                               "type": "string",
@@ -13256,9 +13271,6 @@
                                           "confirmed": {
                                             "type": "boolean"
                                           },
-                                          "blocked": {
-                                            "type": "boolean"
-                                          },
                                           "role": {
                                             "type": "object",
                                             "properties": {
@@ -13681,6 +13693,9 @@
                                                 }
                                               }
                                             }
+                                          },
+                                          "blocked": {
+                                            "type": "boolean"
                                           },
                                           "username": {
                                             "type": "string"
@@ -14219,6 +14234,9 @@
                                           },
                                           "full_registration": {
                                             "type": "boolean"
+                                          },
+                                          "hrb_ort": {
+                                            "type": "string"
                                           },
                                           "createdAt": {
                                             "type": "string",
@@ -15635,9 +15653,6 @@
                                 "confirmed": {
                                   "type": "boolean"
                                 },
-                                "blocked": {
-                                  "type": "boolean"
-                                },
                                 "role": {
                                   "type": "object",
                                   "properties": {
@@ -16060,6 +16075,9 @@
                                       }
                                     }
                                   }
+                                },
+                                "blocked": {
+                                  "type": "boolean"
                                 },
                                 "username": {
                                   "type": "string"
@@ -17085,6 +17103,9 @@
                                 "full_registration": {
                                   "type": "boolean"
                                 },
+                                "hrb_ort": {
+                                  "type": "string"
+                                },
                                 "createdAt": {
                                   "type": "string",
                                   "format": "date-time"
@@ -17671,9 +17692,6 @@
                               "confirmed": {
                                 "type": "boolean"
                               },
-                              "blocked": {
-                                "type": "boolean"
-                              },
                               "role": {
                                 "type": "object",
                                 "properties": {
@@ -18096,6 +18114,9 @@
                                     }
                                   }
                                 }
+                              },
+                              "blocked": {
+                                "type": "boolean"
                               },
                               "username": {
                                 "type": "string"
@@ -19120,6 +19141,9 @@
                               },
                               "full_registration": {
                                 "type": "boolean"
+                              },
+                              "hrb_ort": {
+                                "type": "string"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -20154,9 +20178,6 @@
                                             "confirmed": {
                                               "type": "boolean"
                                             },
-                                            "blocked": {
-                                              "type": "boolean"
-                                            },
                                             "role": {
                                               "type": "object",
                                               "properties": {
@@ -20579,6 +20600,9 @@
                                                   }
                                                 }
                                               }
+                                            },
+                                            "blocked": {
+                                              "type": "boolean"
                                             },
                                             "username": {
                                               "type": "string"
@@ -21117,6 +21141,9 @@
                                             },
                                             "full_registration": {
                                               "type": "boolean"
+                                            },
+                                            "hrb_ort": {
+                                              "type": "string"
                                             },
                                             "createdAt": {
                                               "type": "string",
@@ -22638,9 +22665,6 @@
                                           "confirmed": {
                                             "type": "boolean"
                                           },
-                                          "blocked": {
-                                            "type": "boolean"
-                                          },
                                           "role": {
                                             "type": "object",
                                             "properties": {
@@ -23063,6 +23087,9 @@
                                                 }
                                               }
                                             }
+                                          },
+                                          "blocked": {
+                                            "type": "boolean"
                                           },
                                           "username": {
                                             "type": "string"
@@ -23601,6 +23628,9 @@
                                           },
                                           "full_registration": {
                                             "type": "boolean"
+                                          },
+                                          "hrb_ort": {
+                                            "type": "string"
                                           },
                                           "createdAt": {
                                             "type": "string",
@@ -24696,9 +24726,6 @@
                                 "confirmed": {
                                   "type": "boolean"
                                 },
-                                "blocked": {
-                                  "type": "boolean"
-                                },
                                 "role": {
                                   "type": "object",
                                   "properties": {
@@ -25121,6 +25148,9 @@
                                       }
                                     }
                                   }
+                                },
+                                "blocked": {
+                                  "type": "boolean"
                                 },
                                 "username": {
                                   "type": "string"
@@ -26146,6 +26176,9 @@
                                 "full_registration": {
                                   "type": "boolean"
                                 },
+                                "hrb_ort": {
+                                  "type": "string"
+                                },
                                 "createdAt": {
                                   "type": "string",
                                   "format": "date-time"
@@ -26680,9 +26713,6 @@
                               "confirmed": {
                                 "type": "boolean"
                               },
-                              "blocked": {
-                                "type": "boolean"
-                              },
                               "role": {
                                 "type": "object",
                                 "properties": {
@@ -27105,6 +27135,9 @@
                                     }
                                   }
                                 }
+                              },
+                              "blocked": {
+                                "type": "boolean"
                               },
                               "username": {
                                 "type": "string"
@@ -28129,6 +28162,9 @@
                               },
                               "full_registration": {
                                 "type": "boolean"
+                              },
+                              "hrb_ort": {
+                                "type": "string"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -29878,9 +29914,6 @@
                                               "confirmed": {
                                                 "type": "boolean"
                                               },
-                                              "blocked": {
-                                                "type": "boolean"
-                                              },
                                               "role": {
                                                 "type": "object",
                                                 "properties": {
@@ -29897,6 +29930,9 @@
                                                     }
                                                   }
                                                 }
+                                              },
+                                              "blocked": {
+                                                "type": "boolean"
                                               },
                                               "username": {
                                                 "type": "string"
@@ -30922,6 +30958,9 @@
                                               "full_registration": {
                                                 "type": "boolean"
                                               },
+                                              "hrb_ort": {
+                                                "type": "string"
+                                              },
                                               "createdAt": {
                                                 "type": "string",
                                                 "format": "date-time"
@@ -31491,9 +31530,6 @@
                                             "confirmed": {
                                               "type": "boolean"
                                             },
-                                            "blocked": {
-                                              "type": "boolean"
-                                            },
                                             "role": {
                                               "type": "object",
                                               "properties": {
@@ -31510,6 +31546,9 @@
                                                   }
                                                 }
                                               }
+                                            },
+                                            "blocked": {
+                                              "type": "boolean"
                                             },
                                             "username": {
                                               "type": "string"
@@ -32535,6 +32574,9 @@
                                             "full_registration": {
                                               "type": "boolean"
                                             },
+                                            "hrb_ort": {
+                                              "type": "string"
+                                            },
                                             "createdAt": {
                                               "type": "string",
                                               "format": "date-time"
@@ -32847,9 +32889,6 @@
                                                             "confirmed": {
                                                               "type": "boolean"
                                                             },
-                                                            "blocked": {
-                                                              "type": "boolean"
-                                                            },
                                                             "role": {
                                                               "type": "object",
                                                               "properties": {
@@ -32866,6 +32905,9 @@
                                                                   }
                                                                 }
                                                               }
+                                                            },
+                                                            "blocked": {
+                                                              "type": "boolean"
                                                             },
                                                             "username": {
                                                               "type": "string"
@@ -34142,6 +34184,9 @@
                                                             "full_registration": {
                                                               "type": "boolean"
                                                             },
+                                                            "hrb_ort": {
+                                                              "type": "string"
+                                                            },
                                                             "createdAt": {
                                                               "type": "string",
                                                               "format": "date-time"
@@ -34489,9 +34534,6 @@
                                                           "confirmed": {
                                                             "type": "boolean"
                                                           },
-                                                          "blocked": {
-                                                            "type": "boolean"
-                                                          },
                                                           "role": {
                                                             "type": "object",
                                                             "properties": {
@@ -34508,6 +34550,9 @@
                                                                 }
                                                               }
                                                             }
+                                                          },
+                                                          "blocked": {
+                                                            "type": "boolean"
                                                           },
                                                           "username": {
                                                             "type": "string"
@@ -35784,6 +35829,9 @@
                                                           "full_registration": {
                                                             "type": "boolean"
                                                           },
+                                                          "hrb_ort": {
+                                                            "type": "string"
+                                                          },
                                                           "createdAt": {
                                                             "type": "string",
                                                             "format": "date-time"
@@ -36037,9 +36085,6 @@
               "confirmed": {
                 "type": "boolean"
               },
-              "blocked": {
-                "type": "boolean"
-              },
               "role": {
                 "oneOf": [
                   {
@@ -36050,6 +36095,9 @@
                   }
                 ],
                 "example": "string or id"
+              },
+              "blocked": {
+                "type": "boolean"
               },
               "username": {
                 "type": "string"
@@ -36142,6 +36190,9 @@
               },
               "full_registration": {
                 "type": "boolean"
+              },
+              "hrb_ort": {
+                "type": "string"
               }
             }
           }
@@ -36175,9 +36226,6 @@
                       "type": "string"
                     },
                     "confirmed": {
-                      "type": "boolean"
-                    },
-                    "blocked": {
                       "type": "boolean"
                     },
                     "role": {
@@ -36565,9 +36613,6 @@
                                               "confirmed": {
                                                 "type": "boolean"
                                               },
-                                              "blocked": {
-                                                "type": "boolean"
-                                              },
                                               "role": {
                                                 "type": "object",
                                                 "properties": {
@@ -36584,6 +36629,9 @@
                                                     }
                                                   }
                                                 }
+                                              },
+                                              "blocked": {
+                                                "type": "boolean"
                                               },
                                               "username": {
                                                 "type": "string"
@@ -37609,6 +37657,9 @@
                                               "full_registration": {
                                                 "type": "boolean"
                                               },
+                                              "hrb_ort": {
+                                                "type": "string"
+                                              },
                                               "createdAt": {
                                                 "type": "string",
                                                 "format": "date-time"
@@ -37705,6 +37756,9 @@
                           }
                         }
                       }
+                    },
+                    "blocked": {
+                      "type": "boolean"
                     },
                     "username": {
                       "type": "string"
@@ -37810,6 +37864,9 @@
                     "full_registration": {
                       "type": "boolean"
                     },
+                    "hrb_ort": {
+                      "type": "string"
+                    },
                     "createdAt": {
                       "type": "string",
                       "format": "date-time"
@@ -37908,9 +37965,6 @@
                     "type": "string"
                   },
                   "confirmed": {
-                    "type": "boolean"
-                  },
-                  "blocked": {
                     "type": "boolean"
                   },
                   "role": {
@@ -38298,9 +38352,6 @@
                                             "confirmed": {
                                               "type": "boolean"
                                             },
-                                            "blocked": {
-                                              "type": "boolean"
-                                            },
                                             "role": {
                                               "type": "object",
                                               "properties": {
@@ -38317,6 +38368,9 @@
                                                   }
                                                 }
                                               }
+                                            },
+                                            "blocked": {
+                                              "type": "boolean"
                                             },
                                             "username": {
                                               "type": "string"
@@ -39342,6 +39396,9 @@
                                             "full_registration": {
                                               "type": "boolean"
                                             },
+                                            "hrb_ort": {
+                                              "type": "string"
+                                            },
                                             "createdAt": {
                                               "type": "string",
                                               "format": "date-time"
@@ -39438,6 +39495,9 @@
                         }
                       }
                     }
+                  },
+                  "blocked": {
+                    "type": "boolean"
                   },
                   "username": {
                     "type": "string"
@@ -39542,6 +39602,9 @@
                   },
                   "full_registration": {
                     "type": "boolean"
+                  },
+                  "hrb_ort": {
+                    "type": "string"
                   },
                   "createdAt": {
                     "type": "string",
